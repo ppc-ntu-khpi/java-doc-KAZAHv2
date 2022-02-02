@@ -1,6 +1,13 @@
 package domain;
+/**
+ * Клас который описывает работников компании
+ * @author Егор
+ */
 public class Employee {
-
+/**
+ * Метод для форматирование информации про работника возвращает рядок с детальной информацией
+ * @return 
+ */
     @Override
     public String toString() {
         return "\nEmployee ID= " + ID + "\nName= " + name + "\nJobTitle= " + jobTitle + "\nLevel= " + level + "\nDept= " + dept;
@@ -13,7 +20,13 @@ public class Employee {
     private String dept;
 
    // private static int employeesCount = 0;
-
+/**
+ * функциональный конструктор класса
+ * @param name имя сотрудника
+ * @param jobTitle место работы
+ * @param level разряд
+ * @param dept отдел где он работает
+ */
     public Employee(String name, String jobTitle, int level, String dept) {
         this();
         setName(name);

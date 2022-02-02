@@ -1,6 +1,18 @@
 package domain;
+/**
+ * клас описывает редактора
+ * @author Егор
+ */
 public class Editor extends Artist {
-
+/**
+ * функциональный конструктор класа
+ * @param electronicEditing возможность редактировать на пк
+ * @param skiils умения
+ * @param name имя
+ * @param jobTitle название работы
+ * @param level уровень умения
+ * @param dept глубина уровня
+ */
     public Editor(boolean electronicEditing, String[] skiils, String name, String jobTitle, int level, String dept) {
         super(skiils, name, jobTitle, level, dept);
         this.electronicEditing = electronicEditing;

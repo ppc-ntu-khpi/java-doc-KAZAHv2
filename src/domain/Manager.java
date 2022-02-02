@@ -1,6 +1,17 @@
 package domain;
+/**
+ * описывает менеджера
+ * @author Егор
+ */
 public class Manager extends Employee {
-
+/**
+ * функциональный конструктор класса
+ * @param employees сотрудники
+ * @param name имя
+ * @param jobTitle место работы
+ * @param level разряд
+ * @param dept  отдел работы
+ */
     public Manager(Employee[] employees, String name, String jobTitle, int level, String dept) {
         super(name, jobTitle, level, dept);
         this.employees = employees;
