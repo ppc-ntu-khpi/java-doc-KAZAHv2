@@ -1,7 +1,18 @@
 package domain;
+/**
+ * описывает редактора
+ * @author Егор
+ */
 
 public class Artist extends Employee {
-
+/**
+ * 
+ * @param skiils умения 
+ * @param name имя 
+ * @param jobTitle место работы
+ * @param level разряд
+ * @param dept отдел где он работает
+ */
     public Artist(String[] skiils, String name, String jobTitle, int level, String dept) {
         super(name, jobTitle, level, dept);
         this.skiils = skiils;
